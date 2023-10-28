@@ -12,3 +12,11 @@ text = "Hello!"
 
 otherText := "Bye!" // Variable initialization shortcut
 ```
+
+## Scope
+
+Variables can be:
+
+- global-scoped
+- function-scoped
+- block-scoped
