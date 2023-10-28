@@ -2,7 +2,7 @@
 
 What we write in a module:
 
-- If it's camelCase, it's prvate
+- If it's camelCase, it's private
 - If it's PascalCase, it's public
 
 Variables and lambda functions can be:
