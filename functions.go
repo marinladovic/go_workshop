@@ -1,7 +1,9 @@
 package main
 
-func printData() {
-	print("Hello ")
-	println("World")
-	println(name)
+import "fmt" // format
+
+func PrintData() {
+	fmt.Print("Hello ")
+	fmt.Println("World")
+	fmt.Println(name)
 }
