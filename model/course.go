@@ -18,3 +18,7 @@ type Course struct {
 func (c Course) String() string {
 	return fmt.Sprintf("--- %v --- (%v)", c.Name, c.Instructor.FirstName)
 }
+
+func (c Course) SignUp() bool {
+	return true
+}

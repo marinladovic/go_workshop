@@ -81,3 +81,20 @@ func main() {
 - You can emulate polymorphism from OOP
 - Implicit implementation
 - We can embed interfaces in other interfaces
+
+It's just a list of methods that we can use as a type.
+
+```go
+type PrettyPrinted interface {
+    PrettyPrint() string
+}
+
+func saveObject(object PrettyPrinted) {
+    save(object.PrettyPrint())
+}
+
+func main() {
+    u2 := User {2, "Frontend Masters"}
+    saveObject(u2)
+}
+```
