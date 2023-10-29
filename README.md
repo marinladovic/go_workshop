@@ -5,5 +5,7 @@ This repository contains my notes and code for [frontendmasters.com](https://fro
 ## Braches
 
 `main` - main branch
+
 `basics` - creating modules, variables, data types, packages, visibility, functions, error handling, control flow, io
+
 `types-structures-interfaces`
